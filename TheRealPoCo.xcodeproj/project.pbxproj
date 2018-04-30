@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED408454209753EA0068BA6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED408453209753EA0068BA6B /* AppDelegate.swift */; };
+		ED408456209753EA0068BA6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED408455209753EA0068BA6B /* ViewController.swift */; };
+		ED408459209753EA0068BA6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED408457209753EA0068BA6B /* Main.storyboard */; };
+		ED40845B209753EB0068BA6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED40845A209753EB0068BA6B /* Assets.xcassets */; };
+		ED40845E209753EB0068BA6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED40845C209753EB0068BA6B /* LaunchScreen.storyboard */; };
+		ED408469209753EB0068BA6B /* TheRealPoCoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED408468209753EB0068BA6B /* TheRealPoCoTests.swift */; };
+		ED408474209753EB0068BA6B /* TheRealPoCoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED408473209753EB0068BA6B /* TheRealPoCoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED408465209753EB0068BA6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED408448209753EA0068BA6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED40844F209753EA0068BA6B;
+			remoteInfo = TheRealPoCo;
+		};
+		ED408470209753EB0068BA6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED408448209753EA0068BA6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED40844F209753EA0068BA6B;
+			remoteInfo = TheRealPoCo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED408450209753EA0068BA6B /* TheRealPoCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheRealPoCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED408453209753EA0068BA6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED408455209753EA0068BA6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED408458209753EA0068BA6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED40845A209753EB0068BA6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED40845D209753EB0068BA6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED40845F209753EB0068BA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED408464209753EB0068BA6B /* TheRealPoCoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheRealPoCoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED408468209753EB0068BA6B /* TheRealPoCoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRealPoCoTests.swift; sourceTree = "<group>"; };
+		ED40846A209753EB0068BA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED40846F209753EB0068BA6B /* TheRealPoCoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheRealPoCoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED408473209753EB0068BA6B /* TheRealPoCoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRealPoCoUITests.swift; sourceTree = "<group>"; };
+		ED408475209753EB0068BA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED40844D209753EA0068BA6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED408461209753EB0068BA6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED40846C209753EB0068BA6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED408447209753EA0068BA6B = {
+			isa = PBXGroup;
+			children = (
+				ED408452209753EA0068BA6B /* TheRealPoCo */,
+				ED408467209753EB0068BA6B /* TheRealPoCoTests */,
+				ED408472209753EB0068BA6B /* TheRealPoCoUITests */,
+				ED408451209753EA0068BA6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED408451209753EA0068BA6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED408450209753EA0068BA6B /* TheRealPoCo.app */,
+				ED408464209753EB0068BA6B /* TheRealPoCoTests.xctest */,
+				ED40846F209753EB0068BA6B /* TheRealPoCoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED408452209753EA0068BA6B /* TheRealPoCo */ = {
+			isa = PBXGroup;
+			children = (
+				ED408453209753EA0068BA6B /* AppDelegate.swift */,
+				ED408455209753EA0068BA6B /* ViewController.swift */,
+				ED408457209753EA0068BA6B /* Main.storyboard */,
+				ED40845A209753EB0068BA6B /* Assets.xcassets */,
+				ED40845C209753EB0068BA6B /* LaunchScreen.storyboard */,
+				ED40845F209753EB0068BA6B /* Info.plist */,
+			);
+			path = TheRealPoCo;
+			sourceTree = "<group>";
+		};
+		ED408467209753EB0068BA6B /* TheRealPoCoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED408468209753EB0068BA6B /* TheRealPoCoTests.swift */,
+				ED40846A209753EB0068BA6B /* Info.plist */,
+			);
+			path = TheRealPoCoTests;
+			sourceTree = "<group>";
+		};
+		ED408472209753EB0068BA6B /* TheRealPoCoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED408473209753EB0068BA6B /* TheRealPoCoUITests.swift */,
+				ED408475209753EB0068BA6B /* Info.plist */,
+			);
+			path = TheRealPoCoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED40844F209753EA0068BA6B /* TheRealPoCo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED408478209753EB0068BA6B /* Build configuration list for PBXNativeTarget "TheRealPoCo" */;
+			buildPhases = (
+				ED40844C209753EA0068BA6B /* Sources */,
+				ED40844D209753EA0068BA6B /* Frameworks */,
+				ED40844E209753EA0068BA6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheRealPoCo;
+			productName = TheRealPoCo;
+			productReference = ED408450209753EA0068BA6B /* TheRealPoCo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED408463209753EB0068BA6B /* TheRealPoCoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED40847B209753EB0068BA6B /* Build configuration list for PBXNativeTarget "TheRealPoCoTests" */;
+			buildPhases = (
+				ED408460209753EB0068BA6B /* Sources */,
+				ED408461209753EB0068BA6B /* Frameworks */,
+				ED408462209753EB0068BA6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED408466209753EB0068BA6B /* PBXTargetDependency */,
+			);
+			name = TheRealPoCoTests;
+			productName = TheRealPoCoTests;
+			productReference = ED408464209753EB0068BA6B /* TheRealPoCoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED40846E209753EB0068BA6B /* TheRealPoCoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED40847E209753EB0068BA6B /* Build configuration list for PBXNativeTarget "TheRealPoCoUITests" */;
+			buildPhases = (
+				ED40846B209753EB0068BA6B /* Sources */,
+				ED40846C209753EB0068BA6B /* Frameworks */,
+				ED40846D209753EB0068BA6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED408471209753EB0068BA6B /* PBXTargetDependency */,
+			);
+			name = TheRealPoCoUITests;
+			productName = TheRealPoCoUITests;
+			productReference = ED40846F209753EB0068BA6B /* TheRealPoCoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED408448209753EA0068BA6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ari Rapalino";
+				TargetAttributes = {
+					ED40844F209753EA0068BA6B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					ED408463209753EB0068BA6B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = ED40844F209753EA0068BA6B;
+					};
+					ED40846E209753EB0068BA6B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = ED40844F209753EA0068BA6B;
+					};
+				};
+			};
+			buildConfigurationList = ED40844B209753EA0068BA6B /* Build configuration list for PBXProject "TheRealPoCo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED408447209753EA0068BA6B;
+			productRefGroup = ED408451209753EA0068BA6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED40844F209753EA0068BA6B /* TheRealPoCo */,
+				ED408463209753EB0068BA6B /* TheRealPoCoTests */,
+				ED40846E209753EB0068BA6B /* TheRealPoCoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED40844E209753EA0068BA6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED40845E209753EB0068BA6B /* LaunchScreen.storyboard in Resources */,
+				ED40845B209753EB0068BA6B /* Assets.xcassets in Resources */,
+				ED408459209753EA0068BA6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED408462209753EB0068BA6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED40846D209753EB0068BA6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED40844C209753EA0068BA6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED408456209753EA0068BA6B /* ViewController.swift in Sources */,
+				ED408454209753EA0068BA6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED408460209753EB0068BA6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED408469209753EB0068BA6B /* TheRealPoCoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED40846B209753EB0068BA6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED408474209753EB0068BA6B /* TheRealPoCoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED408466209753EB0068BA6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED40844F209753EA0068BA6B /* TheRealPoCo */;
+			targetProxy = ED408465209753EB0068BA6B /* PBXContainerItemProxy */;
+		};
+		ED408471209753EB0068BA6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED40844F209753EA0068BA6B /* TheRealPoCo */;
+			targetProxy = ED408470209753EB0068BA6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED408457209753EA0068BA6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED408458209753EA0068BA6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED40845C209753EB0068BA6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED40845D209753EB0068BA6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED408476209753EB0068BA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED408477209753EB0068BA6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED408479209753EB0068BA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM4CVRAZ2W;
+				INFOPLIST_FILE = TheRealPoCo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Evan.TheRealPoCo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED40847A209753EB0068BA6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM4CVRAZ2W;
+				INFOPLIST_FILE = TheRealPoCo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Evan.TheRealPoCo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED40847C209753EB0068BA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM4CVRAZ2W;
+				INFOPLIST_FILE = TheRealPoCoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Evan.TheRealPoCoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheRealPoCo.app/TheRealPoCo";
+			};
+			name = Debug;
+		};
+		ED40847D209753EB0068BA6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM4CVRAZ2W;
+				INFOPLIST_FILE = TheRealPoCoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Evan.TheRealPoCoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheRealPoCo.app/TheRealPoCo";
+			};
+			name = Release;
+		};
+		ED40847F209753EB0068BA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM4CVRAZ2W;
+				INFOPLIST_FILE = TheRealPoCoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Evan.TheRealPoCoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheRealPoCo;
+			};
+			name = Debug;
+		};
+		ED408480209753EB0068BA6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM4CVRAZ2W;
+				INFOPLIST_FILE = TheRealPoCoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Evan.TheRealPoCoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheRealPoCo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED40844B209753EA0068BA6B /* Build configuration list for PBXProject "TheRealPoCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED408476209753EB0068BA6B /* Debug */,
+				ED408477209753EB0068BA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED408478209753EB0068BA6B /* Build configuration list for PBXNativeTarget "TheRealPoCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED408479209753EB0068BA6B /* Debug */,
+				ED40847A209753EB0068BA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED40847B209753EB0068BA6B /* Build configuration list for PBXNativeTarget "TheRealPoCoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED40847C209753EB0068BA6B /* Debug */,
+				ED40847D209753EB0068BA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED40847E209753EB0068BA6B /* Build configuration list for PBXNativeTarget "TheRealPoCoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED40847F209753EB0068BA6B /* Debug */,
+				ED408480209753EB0068BA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED408448209753EA0068BA6B /* Project object */;
+}
