@@ -9,10 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var responseText: UILabel!
 
+    
+    @IBAction func buttonAction(_ sender: Any) {
+        let keyWords = ["test1","test2","test3"]
+        if (keyWords.contains(textField.text as! String!)){
+            responseText.setValue("Not PoCo", forKey: "text")
+        }else{
+            responseText.setValue("PoCo!!", forKey: "text")
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
