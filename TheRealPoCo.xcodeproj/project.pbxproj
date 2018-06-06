@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E517B47D99D94F18A00908 /* Pods_TheRealPoCoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36E8841F09CC44BF303974B /* Pods_TheRealPoCoTests.framework */; };
+		4DA915A064AADCFB742AE00D /* Pods_TheRealPoCo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E20C2913DC645E270E83606 /* Pods_TheRealPoCo.framework */; };
+		6F818882F3371D97923892D5 /* Pods_TheRealPoCoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DB6039B17FEE5C1C9F8C81 /* Pods_TheRealPoCoUITests.framework */; };
 		ED408454209753EA0068BA6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED408453209753EA0068BA6B /* AppDelegate.swift */; };
 		ED408456209753EA0068BA6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED408455209753EA0068BA6B /* ViewController.swift */; };
 		ED408459209753EA0068BA6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED408457209753EA0068BA6B /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A86B6DEAFAC48F1F430923E /* Pods-TheRealPoCoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheRealPoCoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheRealPoCoTests/Pods-TheRealPoCoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4CC5C0FE25979A74AD83AD9B /* Pods-TheRealPoCoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheRealPoCoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheRealPoCoTests/Pods-TheRealPoCoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EEBB71B2F1ADC7774998C86 /* Pods-TheRealPoCo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheRealPoCo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheRealPoCo/Pods-TheRealPoCo.release.xcconfig"; sourceTree = "<group>"; };
+		8123BB651AEA68518D87B77C /* Pods-TheRealPoCo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheRealPoCo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheRealPoCo/Pods-TheRealPoCo.debug.xcconfig"; sourceTree = "<group>"; };
+		84DB6039B17FEE5C1C9F8C81 /* Pods_TheRealPoCoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheRealPoCoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E20C2913DC645E270E83606 /* Pods_TheRealPoCo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheRealPoCo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6FF2ECC2B4FC550B4F1EF5 /* Pods-TheRealPoCoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheRealPoCoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheRealPoCoUITests/Pods-TheRealPoCoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E36E8841F09CC44BF303974B /* Pods_TheRealPoCoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheRealPoCoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED408450209753EA0068BA6B /* TheRealPoCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheRealPoCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED408453209753EA0068BA6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED408455209753EA0068BA6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		ED40846F209753EB0068BA6B /* TheRealPoCoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheRealPoCoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED408473209753EB0068BA6B /* TheRealPoCoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRealPoCoUITests.swift; sourceTree = "<group>"; };
 		ED408475209753EB0068BA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F751FC353C2D057756E32C79 /* Pods-TheRealPoCoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheRealPoCoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheRealPoCoUITests/Pods-TheRealPoCoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DA915A064AADCFB742AE00D /* Pods_TheRealPoCo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E517B47D99D94F18A00908 /* Pods_TheRealPoCoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F818882F3371D97923892D5 /* Pods_TheRealPoCoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10F48460932B5DF401203634 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E20C2913DC645E270E83606 /* Pods_TheRealPoCo.framework */,
+				E36E8841F09CC44BF303974B /* Pods_TheRealPoCoTests.framework */,
+				84DB6039B17FEE5C1C9F8C81 /* Pods_TheRealPoCoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		476204CFBDEBA83544EB2B10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8123BB651AEA68518D87B77C /* Pods-TheRealPoCo.debug.xcconfig */,
+				5EEBB71B2F1ADC7774998C86 /* Pods-TheRealPoCo.release.xcconfig */,
+				4CC5C0FE25979A74AD83AD9B /* Pods-TheRealPoCoTests.debug.xcconfig */,
+				0A86B6DEAFAC48F1F430923E /* Pods-TheRealPoCoTests.release.xcconfig */,
+				CD6FF2ECC2B4FC550B4F1EF5 /* Pods-TheRealPoCoUITests.debug.xcconfig */,
+				F751FC353C2D057756E32C79 /* Pods-TheRealPoCoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ED408447209753EA0068BA6B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				ED408467209753EB0068BA6B /* TheRealPoCoTests */,
 				ED408472209753EB0068BA6B /* TheRealPoCoUITests */,
 				ED408451209753EA0068BA6B /* Products */,
+				476204CFBDEBA83544EB2B10 /* Pods */,
+				10F48460932B5DF401203634 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED408478209753EB0068BA6B /* Build configuration list for PBXNativeTarget "TheRealPoCo" */;
 			buildPhases = (
+				635B3FE2256C5EB73612CDC1 /* [CP] Check Pods Manifest.lock */,
 				ED40844C209753EA0068BA6B /* Sources */,
 				ED40844D209753EA0068BA6B /* Frameworks */,
 				ED40844E209753EA0068BA6B /* Resources */,
+				E6F2BE5F6AE12B50F0BB8AC7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED40847B209753EB0068BA6B /* Build configuration list for PBXNativeTarget "TheRealPoCoTests" */;
 			buildPhases = (
+				497EC843BE9E04808D1C93FF /* [CP] Check Pods Manifest.lock */,
 				ED408460209753EB0068BA6B /* Sources */,
 				ED408461209753EB0068BA6B /* Frameworks */,
 				ED408462209753EB0068BA6B /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED40847E209753EB0068BA6B /* Build configuration list for PBXNativeTarget "TheRealPoCoUITests" */;
 			buildPhases = (
+				FF5DFB2EFC328B3FB2F83784 /* [CP] Check Pods Manifest.lock */,
 				ED40846B209753EB0068BA6B /* Sources */,
 				ED40846C209753EB0068BA6B /* Frameworks */,
 				ED40846D209753EB0068BA6B /* Resources */,
@@ -250,6 +294,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		497EC843BE9E04808D1C93FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheRealPoCoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		635B3FE2256C5EB73612CDC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheRealPoCo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F2BE5F6AE12B50F0BB8AC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TheRealPoCo/Pods-TheRealPoCo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheRealPoCo/Pods-TheRealPoCo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5DFB2EFC328B3FB2F83784 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheRealPoCoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED40844C209753EA0068BA6B /* Sources */ = {
@@ -428,15 +547,13 @@
 		};
 		ED408479209753EB0068BA6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8123BB651AEA68518D87B77C /* Pods-TheRealPoCo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UM4CVRAZ2W;
 				INFOPLIST_FILE = TheRealPoCo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Evan.TheRealPoCo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +563,13 @@
 		};
 		ED40847A209753EB0068BA6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EEBB71B2F1ADC7774998C86 /* Pods-TheRealPoCo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UM4CVRAZ2W;
 				INFOPLIST_FILE = TheRealPoCo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Evan.TheRealPoCo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +579,14 @@
 		};
 		ED40847C209753EB0068BA6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC5C0FE25979A74AD83AD9B /* Pods-TheRealPoCoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UM4CVRAZ2W;
 				INFOPLIST_FILE = TheRealPoCoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Evan.TheRealPoCoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +597,14 @@
 		};
 		ED40847D209753EB0068BA6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A86B6DEAFAC48F1F430923E /* Pods-TheRealPoCoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UM4CVRAZ2W;
 				INFOPLIST_FILE = TheRealPoCoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Evan.TheRealPoCoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +615,13 @@
 		};
 		ED40847F209753EB0068BA6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6FF2ECC2B4FC550B4F1EF5 /* Pods-TheRealPoCoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UM4CVRAZ2W;
 				INFOPLIST_FILE = TheRealPoCoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Evan.TheRealPoCoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +632,13 @@
 		};
 		ED408480209753EB0068BA6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F751FC353C2D057756E32C79 /* Pods-TheRealPoCoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UM4CVRAZ2W;
 				INFOPLIST_FILE = TheRealPoCoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ari-Evan.TheRealPoCoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
