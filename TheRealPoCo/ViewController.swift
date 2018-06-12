@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonAction(_ sender: Any) {
         let keyWords = textField.text?.lowercased()
-        let words = ["hi","hello"]
+        let words = ["nigg","fag","chink","coon","kike","its okay to be white"]
         var notPoCo = false;
         for word in words {
             let matched = keyWordsFinder(for: word, in: keyWords!)
